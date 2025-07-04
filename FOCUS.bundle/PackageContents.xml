@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0"
+	ProductType="Application"
+
+	AutodeskProduct="Fusion360"
+	Name="FOCUS"
+	Description="The FOCUS tool provides realtime feedback on your CAD models and suggests areas for improvement.
+"
+	AppVersion="2.0.0"
+	Author="Joseph Palmer"
+	AppNameSpace="com.autodesk.exchange.Fusion360.FOCUS"
+	HelpFile="./Contents/docs/FOCUS.html"
+	OnlineDocumentation="http://j-palmer.me.uk/"
+
+	ProductCode="*"
+	UpgradeCode="{E7950A2B-4D76-4A68-8226-74FFCC68398C}" >
+	
+	<CompanyDetails Name="Joe Palmer"
+		Phone=" "
+		Url="http://j-palmer.me.uk/"
+		Email="j.palmer@sheffield.ac.uk" />
+
+		<RuntimeRequirements SupportPath="./Contents/docs" OS="win64" Platform="Fusion360" SeriesMin=""  />
+
+	<Components>
+		<RuntimeRequirements SupportPath="./Contents/docs" OS="win64" Platform="Fusion360" SeriesMin="" />
+		    <ComponentEntry AppName="FOCUS" Version="2.0.0" ModuleName="./Contents/FOCUS Tool.manifest" AppDescription="The FOCUS tool provides realtime feedback on your CAD models and suggests areas for improvement.
+" />
+	</Components>
+	
+</ApplicationPackage>
