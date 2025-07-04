@@ -1,0 +1,13 @@
+{
+	"autodeskProduct": "Fusion360",
+	"type": "addin",
+	"id": "E7950A2B-4D76-4A68-8226-74FFCC68398C",
+	"author": "Joseph Palmer - Joe Palmer",
+	"description": {
+		"":	"The FOCUS tool provides realtime feedback on your CAD models and suggests areas for improvement. "
+	},
+	"version": "2.0.0",
+	"runOnStartup": true,
+	"supportedOS": "windows",
+	"autodeskLibraries": ["application", "dashboard", "geometry", "materials", "userInterface", "utilities", "bRep", "components", "construction", "features", "fusion", "meshBody", "meshData", "sketch", "tSpline"]
+}
